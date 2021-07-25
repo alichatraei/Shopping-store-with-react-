@@ -1,14 +1,14 @@
 import React from "react";
 import Logo from "../Assets/Images/Logo.svg";
-import { AppBar, Toolbar, Button } from "@material-ui/core";
+import { AppBar, Toolbar, Button, CardMedia } from "@material-ui/core";
+import useStyles from "./Styles/Styles";
 const HeaderLayout = () => {
+  const classes: any = useStyles();
   return (
-    <AppBar position="static">
+    <AppBar position="static" className={classes.header}>
       <Toolbar>
-        <div>
-          <img src={Logo} alt="Logo" />
-        </div>
-        <Button color="inherit">Login</Button>
+        <CardMedia image={Logo} src={Logo} />
+        <Button color="inherit">ورود</Button>
       </Toolbar>
     </AppBar>
   );
