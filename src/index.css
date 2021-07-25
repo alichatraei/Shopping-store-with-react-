@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "IranSansX-Regular";
+  src: url("./Assets/Fonts/IRANSansX-Regular.woff") format("woff");
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "IranSansX-Medium";
+  src: url("./Assets/Fonts/IRANSansX-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "IranSansX-Bold";
+  src: url("./Assets/Fonts/IRANSansX-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "IranSansX-Light";
+  src: url("./Assets/Fonts/IRANSansX-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "IranSansX-Thin";
+  src: url("./Assets/Fonts/IRANSansX-Thin.woff") format("woff");
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  direction: rtl;
+}
+* {
+  margin: 0;
+  height: 0;
+  box-sizing: border-box;
+  font-family: "IranSansX-Regular";
 }
