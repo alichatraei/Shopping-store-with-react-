@@ -1,2 +1,3 @@
-import SearchBox from "./SearchBox/SearchBox";
-export { SearchBox };
+import SearchMenuBox from "./SearchMenuBox/SearchMenuBox";
+import DropDownMenu from "./DropDownMenu/DropDownMenu";
+export { SearchMenuBox, DropDownMenu };

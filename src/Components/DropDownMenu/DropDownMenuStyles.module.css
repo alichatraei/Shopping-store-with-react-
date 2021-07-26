@@ -1,0 +1,25 @@
+.dropDownToggleBtn {
+  height: 100%;
+  color: #4f4538;
+  border-left: 1px solid #d4d4d4 !important;
+}
+.cheveronDownIcon {
+  height: 100%;
+  font-size: 1em;
+  fill: #a9a9a9;
+}
+.dropDownToggleBtn:after {
+  display: none !important;
+}
+.dropDownToggleBtn:focus {
+  box-shadow: none !important;
+}
+.dropDownMenu {
+  height: auto;
+}
+.dropDownItem {
+  margin: 0.5rem 0;
+  color: #4f4538;
+  height: auto;
+  text-align: center !important;
+}

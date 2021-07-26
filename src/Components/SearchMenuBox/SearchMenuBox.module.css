@@ -1,0 +1,8 @@
+.searchMenuContainer {
+  min-height: 3.5rem;
+  max-height: 10rem;
+  border-radius: 8px;
+  padding: 0.5rem 0.2rem;
+  background-color: #f3f3f3;
+  width: 100%;
+}
