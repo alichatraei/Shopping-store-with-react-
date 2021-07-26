@@ -6,7 +6,7 @@ import { SearchMenuBox } from "../../Components";
 const HeaderLayout = () => {
   return (
     <header className={HeaderLayoutStyles.header}>
-      <Container className="h-100">
+      <Container fluid className="h-100">
         <Row className="h-100">
           <Col className="h-100">
             <img src={Logo} alt={Logo} title={Logo} className="h-100" />

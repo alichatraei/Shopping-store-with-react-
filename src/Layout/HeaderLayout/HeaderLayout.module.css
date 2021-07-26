@@ -1,4 +1,6 @@
 .header {
   background-color: #fff;
   height: 5rem;
+  padding: 0 2.2rem;
+  box-shadow: 0px 4px 10px rgba(204, 204, 204, 0.5);
 }

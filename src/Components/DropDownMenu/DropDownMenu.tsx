@@ -5,7 +5,7 @@ import DropDownMenuStyles from "./DropDownMenuStyles.module.css";
 const DropDownMenu = (): JSX.Element => {
   return (
     <>
-      <Dropdown className="h-100">
+      <Dropdown className={`h-100 ${DropDownMenuStyles.dropDown}`}>
         <Dropdown.Toggle
           variant="transparent"
           className={DropDownMenuStyles.dropDownToggleBtn}
