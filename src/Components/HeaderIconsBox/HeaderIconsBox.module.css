@@ -5,6 +5,13 @@
     position: relative;
 }
 
+.userProfile img,
+.heartIcon img,
+.shoppingCart img {
+    width: 2rem;
+    height: 2rem;
+}
+
 .heartIcon::after,
 .shoppingCart:after {
     width: 1.3rem;
