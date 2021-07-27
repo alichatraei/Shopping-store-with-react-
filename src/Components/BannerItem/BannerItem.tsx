@@ -18,7 +18,7 @@ const BannerItem = () => {
                             <SwiperSlide className={BannerItemStyles.swiperSlide} />
                         </Swiper>
                     </Col>
-                    <Col xs={12} md={8} className="h-auto">
+                    <Col xs={12} md={8} className="h-auto mt-3 m-md-0">
                         <Swiper pagination={true} className="mySwiper h-auto">
                             <SwiperSlide className={BannerItemStyles.swiperSlide} />
                             <SwiperSlide className={BannerItemStyles.swiperSlide} />
