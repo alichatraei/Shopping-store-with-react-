@@ -4,7 +4,9 @@ import SearchInput from "./SearchInput/SearchInput";
 import HeaderIconsBox from "./HeaderIconsBox/HeaderIconsBox";
 import OffCanvas from "./OffCanvas/OffCanvas";
 import BannersContainer from "./BannersContainer/BannersContainer";
+import BannerItem from "./BannerItem/BannerItem";
+
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
-    OffCanvas, BannersContainer
+    OffCanvas, BannersContainer, BannerItem
 };

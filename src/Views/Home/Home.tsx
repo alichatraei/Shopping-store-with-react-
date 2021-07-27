@@ -1,11 +1,11 @@
 import React from 'react'
-import { BannersContainer } from '../../Components'
+import { BannersContainer, BannerItem } from '../../Components'
 import HomeStyles from './Home.module.css'
 const Home = () => {
     return (
         <main className={HomeStyles.homeContainer}>
             <BannersContainer >
-                s
+                <BannerItem />
             </BannersContainer>
         </main>
     )
