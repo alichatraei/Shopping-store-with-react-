@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Offcanvas } from 'react-bootstrap';
-import { HeaderIconsBox } from '../';
+import { HeaderIconsBox, DropDownMenu } from '../';
 import { AiOutlineMenu } from 'react-icons/ai'
 
 const OffCanvas = () => {
@@ -16,6 +16,9 @@ const OffCanvas = () => {
                     <Offcanvas.Title className="h-auto">منو</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body className="w-100 h-100">
+                    <div className="mb-5 h-auto">
+                        <DropDownMenu />
+                    </div>
                     <div className="headerIcons h-auto">
                         <HeaderIconsBox />
                     </div>
