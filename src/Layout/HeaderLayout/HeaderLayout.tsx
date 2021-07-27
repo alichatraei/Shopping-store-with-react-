@@ -2,10 +2,8 @@ import React from "react";
 import Logo from "../../Assets/Images/Logo.svg";
 import { Container, Col, Row } from "react-bootstrap";
 import HeaderLayoutStyles from "./HeaderLayout.module.css";
-import { SearchMenuBox } from "../../Components";
-import heart from "../../Assets/Icons/heart.svg";
-import shoppingCart from "../../Assets/Icons/shopping-cart.svg";
-import userProfile from "../../Assets/Icons/user.svg";
+import { SearchMenuBox, HeaderIconsBox } from "../../Components";
+
 const HeaderLayout = () => {
   return (
     <header className={HeaderLayoutStyles.header}>
@@ -25,9 +23,7 @@ const HeaderLayout = () => {
             md={2}
             className="d-none d-md-flex h-100 align-items-center justify-content-between"
           >
-            <img src={userProfile} alt="userProfile" className="h-50" />
-            <img src={heart} alt="heart" className="h-50" />
-            <img src={shoppingCart} alt="shoppingCart" className="h-50" />
+            <HeaderIconsBox />
           </Col>
         </Row>
       </Container>
