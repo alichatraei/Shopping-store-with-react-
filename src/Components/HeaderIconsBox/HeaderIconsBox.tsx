@@ -3,7 +3,7 @@ import heart from "../../Assets/Icons/heart.svg";
 import shoppingCart from "../../Assets/Icons/shopping-cart.svg";
 import userProfile from "../../Assets/Icons/user.svg";
 import HeaderIconsBoxStyles from "./HeaderIconsBox.module.css";
-const HeaderIconsBox = () => {
+const HeaderIconsBox = ({ mobileSize }: { mobileSize?: boolean }) => {
   return (
     <div
       className="headerIconsBoxContainer d-flex justify-content-between

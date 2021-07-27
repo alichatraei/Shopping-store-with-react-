@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Offcanvas } from 'react-bootstrap';
-import { SearchMenuBox, DropDownMenu } from '../';
+import { SearchMenuBox, DropDownMenu, HeaderIconsBox } from '../';
 import { AiOutlineMenu } from 'react-icons/ai'
 
 const OffCanvas = () => {
@@ -19,8 +19,11 @@ const OffCanvas = () => {
                     <div className="searchBox h-auto w-100 my-4">
                         <SearchMenuBox />
                     </div>
-                    <div className="dropDownMenu h-auto w-100">
+                    <div className="dropDownMenu h-auto w-100 mb-4">
                         <DropDownMenu leftBorder={false} />
+                    </div>
+                    <div className="headerIcons h-auto">
+                        <HeaderIconsBox mobileSize={true} />
                     </div>
                 </Offcanvas.Body>
             </Offcanvas>
