@@ -1,9 +1,9 @@
 import React from 'react'
 import { BannersContainer } from '../../Components'
-
+import HomeStyles from './Home.module.css'
 const Home = () => {
     return (
-        <main>
+        <main className={HomeStyles.homeContainer}>
             <BannersContainer >
                 s
             </BannersContainer>
