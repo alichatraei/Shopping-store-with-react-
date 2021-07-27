@@ -1,5 +1,5 @@
 import React from 'react'
-import { BannersContainer, BannerItem } from '../../Components'
+import { BannersContainer, BannerItem, CardContainer } from '../../Components'
 import HomeStyles from './Home.module.css'
 const Home = () => {
     return (
@@ -7,6 +7,9 @@ const Home = () => {
             <BannersContainer >
                 <BannerItem />
             </BannersContainer>
+            <CardContainer>
+                Card
+            </CardContainer>
         </main>
     )
 }
