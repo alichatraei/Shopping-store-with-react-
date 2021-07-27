@@ -2,13 +2,13 @@ import React from "react";
 import { Dropdown } from "react-bootstrap";
 import { BiChevronDown } from "react-icons/bi";
 import DropDownMenuStyles from "./DropDownMenuStyles.module.css";
-const DropDownMenu = (): JSX.Element => {
+const DropDownMenu = ({ leftBorder }: { leftBorder?: boolean }): JSX.Element => {
   return (
     <>
       <Dropdown className={`h-100 ${DropDownMenuStyles.dropDown}`}>
         <Dropdown.Toggle
           variant="transparent"
-          className={DropDownMenuStyles.dropDownToggleBtn}
+          className={`${!leftBorder ? 'border-0' : false} ${DropDownMenuStyles.dropDownToggleBtn}`}
           id="dropdown-basic"
         >
           دسته بندی ها
