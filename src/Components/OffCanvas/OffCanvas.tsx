@@ -10,7 +10,9 @@ const OffCanvas = () => {
 
     return (
         <div className="h-100 d-flex align-items-center justify-content-center">
-            <AiOutlineMenu size="1.5rem" color="#787878" onClick={handleShow} style={{ height: '100%' }} />
+            <AiOutlineMenu size="1.5rem" color="#787878"
+                onClick={handleShow}
+                style={{ height: '100%', cursor: 'pointer' }} />
             <Offcanvas className="bg-light h-100" show={show} onHide={handleClose} placement="end" name="start">
                 <Offcanvas.Header closeButton className="h-auto">
                     <Offcanvas.Title className="h-auto">منو</Offcanvas.Title>
