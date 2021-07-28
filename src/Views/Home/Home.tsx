@@ -16,6 +16,13 @@ const Home = () => {
                     </Row>
                 </Container>
             </CardContainer>
+            <CardContainer title="محصولات منتخب" secondText="همه محصولات">
+                <Container fluid className="h-auto w-100 d-flex justify-content-center p-0">
+                    <Row className="h-auto w-100 d-flex justify-content-between">
+                        <PopularCategoryList />
+                    </Row>
+                </Container>
+            </CardContainer>
         </main>
     )
 }
