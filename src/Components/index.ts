@@ -7,8 +7,11 @@ import BannersContainer from "./BannersContainer/BannersContainer";
 import BannerItem from "./BannerItem/BannerItem";
 import PopularCategoryList from "./PopularCategoryList/PopularCategoryList";
 import CardContainer from "./CardContainer/CardContainer";
+import ProductSlider from "./ProductSlider/ProductSlider";
+import ProductItemSlider from "./ProductItemSlider/ProductItemSlider";
 
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
-    OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer
+    OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
+    ProductSlider, ProductItemSlider
 };

@@ -9,7 +9,7 @@ interface ICardContainerProp {
 const CardContainer: React.FC<IComponentProps & ICardContainerProp> = ({ children, title, secondText }) => {
     return (
         <section className={`h-auto mx-auto
-        my-4 p-4 ${CardContainerStyles.cardContainer}`}>
+         ${CardContainerStyles.cardContainer}`}>
             <div className={`contaienr-fluid ${CardContainerStyles.cardTitle}`}>
                 <h4 className="h-auto w-auto">{title}</h4>
                 <h6 className="h-auto">{secondText}

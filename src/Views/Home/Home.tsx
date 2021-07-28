@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap';
-import { BannersContainer, BannerItem, CardContainer } from '../../Components';
+import { BannersContainer, BannerItem, CardContainer, ProductSlider } from '../../Components';
 import { PopularCategoryList } from '../../Components'
 import HomeStyles from './Home.module.css';
 const Home = () => {
@@ -16,10 +16,10 @@ const Home = () => {
                     </Row>
                 </Container>
             </CardContainer>
-            <CardContainer title="محصولات منتخب" secondText="همه محصولات">
+            <CardContainer title="ساعت هوشمند" secondText="ساعت های هوشمند">
                 <Container fluid className="h-auto w-100 d-flex justify-content-center p-0">
                     <Row className="h-auto w-100 d-flex justify-content-between">
-                        <PopularCategoryList />
+                        <ProductSlider />
                     </Row>
                 </Container>
             </CardContainer>
