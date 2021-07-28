@@ -1,5 +1,12 @@
 .footer {
     background-color: #FAFAFA;
     box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.12);
-    padding: 3rem 0;
+    padding-top: 3rem;
+}
+
+.hrDivider {
+    width: 75%;
+    height: 10px;
+    margin: 1rem auto;
+    color: #C4C4C4;
 }

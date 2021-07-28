@@ -13,10 +13,12 @@ import FooterFeatureItem from "./FooterFeatureItem/FooterFeatureItem";
 import FooterFeaturesContainer from './FooterFeaturesContainer/FooterFeaturesContainer'
 import FooterContactUs from './FooterContactUs/FooterContactUs'
 import FooterEnamadLogo from "./FooterEnamadLogo/FooterEnamadLogo";
+import FooterOwnerInformation from "./FooterOwnerInformation/FooterOwnerInformation";
+
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
     ProductSlider, ProductItemSlider, FooterFeatureItem, FooterFeaturesContainer,
     FooterContactUs,
-    FooterEnamadLogo
+    FooterEnamadLogo, FooterOwnerInformation
 };
