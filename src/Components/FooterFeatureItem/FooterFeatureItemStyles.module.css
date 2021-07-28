@@ -1,0 +1,13 @@
+.footerFeatureCard:nth-child(4n),
+.footerFeatureCard:nth-child(4n-1),
+.footerFeatureCard:nth-child(4n-2) {
+    border-right: 2px solid #E6E6E6;
+}
+
+.footerFeatureCard h6 {
+    color: #7E7E7E;
+}
+
+.footerFeatureCard h5 {
+    color: #2E343B;
+}
