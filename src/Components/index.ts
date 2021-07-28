@@ -9,9 +9,10 @@ import PopularCategoryList from "./PopularCategoryList/PopularCategoryList";
 import CardContainer from "./CardContainer/CardContainer";
 import ProductSlider from "./ProductSlider/ProductSlider";
 import ProductItemSlider from "./ProductItemSlider/ProductItemSlider";
-
+import FooterFeatureItem from "./FooterFeatureItem/FooterFeatureItem";
+import FooterFeaturesContainer from './FooterFeaturesContainer/FooterFeaturesContainer'
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
-    ProductSlider, ProductItemSlider
+    ProductSlider, ProductItemSlider, FooterFeatureItem, FooterFeaturesContainer
 };
