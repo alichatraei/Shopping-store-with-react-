@@ -12,9 +12,11 @@ import ProductItemSlider from "./ProductItemSlider/ProductItemSlider";
 import FooterFeatureItem from "./FooterFeatureItem/FooterFeatureItem";
 import FooterFeaturesContainer from './FooterFeaturesContainer/FooterFeaturesContainer'
 import FooterContactUs from './FooterContactUs/FooterContactUs'
+import FooterEnamadLogo from "./FooterEnamadLogo/FooterEnamadLogo";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
     ProductSlider, ProductItemSlider, FooterFeatureItem, FooterFeaturesContainer,
-    FooterContactUs
+    FooterContactUs,
+    FooterEnamadLogo
 };
