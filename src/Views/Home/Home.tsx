@@ -1,14 +1,20 @@
 import React from 'react'
-import { BannersContainer, BannerItem, CardContainer } from '../../Components'
-import HomeStyles from './Home.module.css'
+import { Container, Row } from 'react-bootstrap';
+import { BannersContainer, BannerItem, CardContainer } from '../../Components';
+import { PopularCategoryList } from '../../Components'
+import HomeStyles from './Home.module.css';
 const Home = () => {
     return (
         <main className={HomeStyles.homeContainer}>
             <BannersContainer >
                 <BannerItem />
             </BannersContainer>
-            <CardContainer>
-                Card
+            <CardContainer title="محصولات منتخب" secondText="همه محصولات">
+                <Container fluid className="h-auto w-100 d-flex justify-content-center p-0">
+                    <Row className="h-auto w-100 d-flex justify-content-between">
+                        <PopularCategoryList />
+                    </Row>
+                </Container>
             </CardContainer>
         </main>
     )
