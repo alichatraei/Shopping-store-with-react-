@@ -7,7 +7,9 @@ const Home = () => {
     return (
         <main className={HomeStyles.homeContainer}>
             <BannersContainer >
-                <BannerItem />
+                <BannerItem banners={[{ xsSize: 12, smSize: 12, mdSize: 4 },
+                { xsSize: 12, smSize: 12, mdSize: 8 }
+                ]} />
             </BannersContainer>
             <CardContainer title="محصولات منتخب" secondText="همه محصولات">
                 <Container fluid className="h-auto w-100 d-flex justify-content-center p-0">
@@ -23,6 +25,21 @@ const Home = () => {
                     </Row>
                 </Container>
             </CardContainer>
+            <BannersContainer >
+                <BannerItem
+                    banners={[{ xsSize: 12, smSize: 12, mdSize: 12 }]} />
+            </BannersContainer>
+            <CardContainer title="پیراهن مردانه" secondText="لباس های مردانه">
+                <Container fluid className="h-auto w-100 d-flex justify-content-center p-0">
+                    <Row className="h-auto w-100 d-flex justify-content-between">
+                        <ProductSlider />
+                    </Row>
+                </Container>
+            </CardContainer>
+            <BannersContainer >
+                <BannerItem
+                    banners={[{ xsSize: 12, smSize: 12, mdSize: 12 }]} />
+            </BannersContainer>
         </main>
     )
 }

@@ -8,23 +8,31 @@ import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
 import BannerItemStyles from './BannerItemStyles.module.css'
 SwiperCore.use([Pagination]);
-const BannerItem = () => {
+type TBannerItem = {
+    banners: {
+        xsSize: number;
+        smSize: number;
+        mdSize: number;
+    }[]
+}
+const BannerItem: React.FC<TBannerItem> = ({ banners }) => {
     return (
         <div className="h-auto w-100">
             <Container className="h-auto w-100">
                 <Row className="h-auto w-100 align-items-center justify-content-between">
-                    <Col xs={12} md={4} className="h-auto">
-                        <Swiper pagination={true} className="mySwiper h-auto">
-                            <SwiperSlide className={BannerItemStyles.swiperSlide} />
-                        </Swiper>
-                    </Col>
-                    <Col xs={12} md={8} className="h-auto mt-3 m-md-0">
-                        <Swiper pagination={true} className="mySwiper h-auto">
-                            <SwiperSlide className={BannerItemStyles.swiperSlide} />
-                            <SwiperSlide className={BannerItemStyles.swiperSlide} />
-                            <SwiperSlide className={BannerItemStyles.swiperSlide} />
-                        </Swiper>
-                    </Col>
+                    {
+                        banners.map((item, index) => {
+                            return (<><Col key={index + 1}
+                                xs={item.xsSize} md={item.mdSize}
+                                className="h-auto">
+                                <Swiper pagination={true} className="mySwiper h-auto">
+                                    <SwiperSlide className={BannerItemStyles.swiperSlide}
+                                        style={banners.length > 1 ? { height: '20rem' }
+                                            : { height: '30rem' }} />
+                                </Swiper>
+                            </Col></>)
+                        })
+                    }
                 </Row>
             </Container>
         </div>
