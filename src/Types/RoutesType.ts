@@ -1,6 +1,6 @@
 type RoutesType = {
     path: string,
     exact: boolean,
-    page: string
+    page: React.LazyExoticComponent<() => JSX.Element>
 }[]
 export default RoutesType
