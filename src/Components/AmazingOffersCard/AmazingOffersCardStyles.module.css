@@ -5,9 +5,28 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.amazingOffers::after {
+    position: absolute;
+    content: "پیشنهاد ویژه";
+    padding: 0.7rem 1rem 0.7rem 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #FAC251 5.76%, #EFB43D 100%);
+    top: 10%;
+    right: 0;
+    border-top-left-radius: 40px;
 }
 
 .imageOffer {
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.imageOffer img {
     width: 100%;
 }
 
@@ -21,12 +40,14 @@
     text-decoration: line-through;
     color: #CFCFCF;
     font-family: 'IranSansX-Light';
+    margin-right: 1rem;
 }
 
 .offerPercent {
     background-color: #FFD57F;
     padding: 0.5em;
     color: #2E343B;
+    border-radius: 10px;
 }
 
 .afterOffer span {
@@ -35,4 +56,8 @@
 
 .productName span {
     color: #2E343B;
+}
+
+.productName {
+    margin-bottom: 4rem;
 }
