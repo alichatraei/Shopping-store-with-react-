@@ -1,0 +1,38 @@
+.amazingOffers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageOffer {
+    width: 100%;
+}
+
+.beforeOffer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.beforeOfferPrice {
+    text-decoration: line-through;
+    color: #CFCFCF;
+    font-family: 'IranSansX-Light';
+}
+
+.offerPercent {
+    background-color: #FFD57F;
+    padding: 0.5em;
+    color: #2E343B;
+}
+
+.afterOffer span {
+    color: #2E343B;
+}
+
+.productName span {
+    color: #2E343B;
+}
