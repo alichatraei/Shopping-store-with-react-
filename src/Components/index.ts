@@ -14,11 +14,14 @@ import FooterFeaturesContainer from './FooterFeaturesContainer/FooterFeaturesCon
 import FooterContactUs from './FooterContactUs/FooterContactUs'
 import FooterEnamadLogo from "./FooterEnamadLogo/FooterEnamadLogo";
 import FooterOwnerInformation from "./FooterOwnerInformation/FooterOwnerInformation";
-
+import AmazingOffersCard from "./AmazingOffersCard/AmazingOffersCard";
+import AmazingOffersContainer from "./AmazingOffersContainer/AmazingOffersContainer";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
     ProductSlider, ProductItemSlider, FooterFeatureItem, FooterFeaturesContainer,
     FooterContactUs,
-    FooterEnamadLogo, FooterOwnerInformation
+    FooterEnamadLogo, FooterOwnerInformation, AmazingOffersCard,
+    AmazingOffersContainer
+
 };
