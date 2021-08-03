@@ -5,62 +5,62 @@ const CategoryProductsHashtags = () => {
     return (
         <Container>
             <Row className="g-3">
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
                 </Col>
-                <Col>
+                <Col className="text-center">
                     <Badge className={CategoryProductsHashtagsStyles.badge}>
                         #{"لوازم گوشی"}
                     </Badge>
