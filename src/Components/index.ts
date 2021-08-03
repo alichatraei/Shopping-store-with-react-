@@ -21,6 +21,7 @@ import CategoryDetailsFilterBox from "./CategoryDetailsFilterBox/CategoryDetails
 import BrandListsAccordionFilterBox from "./BrandListsAccordionFilterBox/BrandListsAccordionFilterBox";
 import OnlyEntityProductsCheckBox from "./OnlyEntityProductsCheckBox/OnlyEntityProductsCheckBox";
 import CategoryProductContainer from "./CategoryProductContainer/CategoryProductContainer";
+import CategoryProductsName from "./CategoryProductsName/CategoryProductsName";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
@@ -32,5 +33,6 @@ export {
     CategoryDetailsFilterBox,
     BrandListsAccordionFilterBox,
     OnlyEntityProductsCheckBox,
-    CategoryProductContainer
+    CategoryProductContainer,
+    CategoryProductsName
 };
