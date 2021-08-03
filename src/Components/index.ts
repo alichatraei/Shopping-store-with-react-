@@ -18,6 +18,7 @@ import AmazingOffersCard from "./AmazingOffersCard/AmazingOffersCard";
 import AmazingOffersContainer from "./AmazingOffersContainer/AmazingOffersContainer";
 import CategoryDetailsAccordion from "./CategoryDetailsAccordion/CategoryDetailsAccordion";
 import CategoryDetailsFilterBox from "./CategoryDetailsFilterBox/CategoryDetailsFilterBox";
+import BrandListsAccordionFilterBox from "./BrandListsAccordionFilterBox/BrandListsAccordionFilterBox";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
@@ -26,5 +27,6 @@ export {
     FooterEnamadLogo, FooterOwnerInformation, AmazingOffersCard,
     AmazingOffersContainer,
     CategoryDetailsAccordion,
-    CategoryDetailsFilterBox
+    CategoryDetailsFilterBox,
+    BrandListsAccordionFilterBox
 };
