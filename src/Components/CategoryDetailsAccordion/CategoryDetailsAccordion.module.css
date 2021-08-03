@@ -1,0 +1,10 @@
+.accordionContainer {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.filterTitle {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E6E6E6;
+}
