@@ -16,12 +16,15 @@ import FooterEnamadLogo from "./FooterEnamadLogo/FooterEnamadLogo";
 import FooterOwnerInformation from "./FooterOwnerInformation/FooterOwnerInformation";
 import AmazingOffersCard from "./AmazingOffersCard/AmazingOffersCard";
 import AmazingOffersContainer from "./AmazingOffersContainer/AmazingOffersContainer";
+import CategoryDetailsAccordion from "./CategoryDetailsAccordion/CategoryDetailsAccordion";
+import CategoryDetailsFilterBox from "./CategoryDetailsFilterBox/CategoryDetailsFilterBox";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
     ProductSlider, ProductItemSlider, FooterFeatureItem, FooterFeaturesContainer,
     FooterContactUs,
     FooterEnamadLogo, FooterOwnerInformation, AmazingOffersCard,
-    AmazingOffersContainer
-
+    AmazingOffersContainer,
+    CategoryDetailsAccordion,
+    CategoryDetailsFilterBox
 };
