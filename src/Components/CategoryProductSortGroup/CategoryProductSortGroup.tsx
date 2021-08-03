@@ -3,14 +3,26 @@ import sortByCategory from '../../Assets/Icons/sortByCategory.svg'
 import CategoryProductSortGroupStyles from './CategoryProductSortGroup.module.css'
 const CategoryProductSortGroup = () => {
     return (
-        <div className={CategoryProductSortGroupStyles.container}>
+        <div className={`${CategoryProductSortGroupStyles.container} container`}>
             <img src={sortByCategory} alt="SortIcon" />
             <span className="mx-2">مرتب سازی:</span>
-            ‌<button className="btn btn-transparent">جدیدترین ها</button>
-            ‌<button className="btn btn-transparent">پربازدیدترین ها</button>
-            ‌<button className="btn btn-transparent">محبوب ترین ها</button>
-            ‌<button className="btn btn-transparent">پرفروش ترین ها</button>
-            ‌<button className="btn btn-transparent">ارزان ترین ها</button>
+            <div className="row align-items-center justify-content-center mt-3">
+                <div className="col text-center">
+                    ‌<button className="btn btn-transparent">جدیدترین ها</button>
+                </div>
+                <div className="col text-center">
+                    ‌<button className="btn btn-transparent">پربازدیدترین ها</button>
+                </div>
+                <div className="col text-center">
+                    ‌<button className="btn btn-transparent">محبوب ترین ها</button>
+                </div>
+                <div className="col text-center">
+                    ‌<button className="btn btn-transparent">پرفروش ترین ها</button>
+                </div>
+                <div className="col text-center">
+                    ‌<button className="btn btn-transparent">ارزان ترین ها</button>
+                </div>
+            </div>
         </div>
     )
 }
