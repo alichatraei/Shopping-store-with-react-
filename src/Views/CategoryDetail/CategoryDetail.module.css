@@ -1,0 +1,5 @@
+.categoryDetailContainer {
+    width: 100%;
+    height: calc(100%-20%);
+    padding: 2rem;
+}

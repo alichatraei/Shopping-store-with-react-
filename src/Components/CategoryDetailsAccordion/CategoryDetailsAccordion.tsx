@@ -1,5 +1,9 @@
 import React from 'react'
 import { Accordion } from 'react-bootstrap'
+import {
+    BrandListsAccordionFilterBox
+    , OnlyEntityProductsCheckBox
+} from '../'
 import CategoryDetailsAccordionStyles from './CategoryDetailsAccordion.module.css'
 const CategoryDetailsAccordion = () => {
     return (
@@ -9,14 +13,24 @@ const CategoryDetailsAccordion = () => {
                 className={CategoryDetailsAccordionStyles.accordion}>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>برند</Accordion.Header>
-                    <Accordion.Body>
-                        برند
+                    <Accordion.Body className={CategoryDetailsAccordionStyles.brandSection}>
+                        <BrandListsAccordionFilterBox />
+                        <BrandListsAccordionFilterBox />
+                        <BrandListsAccordionFilterBox />
+                        <BrandListsAccordionFilterBox />
+                        <BrandListsAccordionFilterBox />
+                        <BrandListsAccordionFilterBox />
+                        <BrandListsAccordionFilterBox />
+                        <BrandListsAccordionFilterBox />
+                        <BrandListsAccordionFilterBox />
+                        <BrandListsAccordionFilterBox />
+                        <BrandListsAccordionFilterBox />
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>محصولات</Accordion.Header>
                     <Accordion.Body>
-                        فقط محصولات موجود
+                        <OnlyEntityProductsCheckBox />
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
