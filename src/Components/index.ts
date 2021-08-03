@@ -20,6 +20,7 @@ import CategoryDetailsAccordion from "./CategoryDetailsAccordion/CategoryDetails
 import CategoryDetailsFilterBox from "./CategoryDetailsFilterBox/CategoryDetailsFilterBox";
 import BrandListsAccordionFilterBox from "./BrandListsAccordionFilterBox/BrandListsAccordionFilterBox";
 import OnlyEntityProductsCheckBox from "./OnlyEntityProductsCheckBox/OnlyEntityProductsCheckBox";
+import CategoryProductContainer from "./CategoryProductContainer/CategoryProductContainer";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
@@ -30,5 +31,6 @@ export {
     CategoryDetailsAccordion,
     CategoryDetailsFilterBox,
     BrandListsAccordionFilterBox,
-    OnlyEntityProductsCheckBox
+    OnlyEntityProductsCheckBox,
+    CategoryProductContainer
 };

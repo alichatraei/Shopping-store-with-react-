@@ -1,0 +1,6 @@
+.productContainer {
+    width: 100%;
+    background-color: #FAFAFA;
+    box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
