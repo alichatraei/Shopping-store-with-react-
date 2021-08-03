@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.container span,
+.container button {
+    font-size: 13px;
+    color: #939393;
+}
+
+.container button:focus,
+.container button:active {
+
+    border-bottom: 1px solid #CCCCCC;
+    outline: none !important;
+    box-shadow: none !important;
+}
