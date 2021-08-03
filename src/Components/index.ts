@@ -19,6 +19,7 @@ import AmazingOffersContainer from "./AmazingOffersContainer/AmazingOffersContai
 import CategoryDetailsAccordion from "./CategoryDetailsAccordion/CategoryDetailsAccordion";
 import CategoryDetailsFilterBox from "./CategoryDetailsFilterBox/CategoryDetailsFilterBox";
 import BrandListsAccordionFilterBox from "./BrandListsAccordionFilterBox/BrandListsAccordionFilterBox";
+import OnlyEntityProductsCheckBox from "./OnlyEntityProductsCheckBox/OnlyEntityProductsCheckBox";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
@@ -28,5 +29,6 @@ export {
     AmazingOffersContainer,
     CategoryDetailsAccordion,
     CategoryDetailsFilterBox,
-    BrandListsAccordionFilterBox
+    BrandListsAccordionFilterBox,
+    OnlyEntityProductsCheckBox
 };
