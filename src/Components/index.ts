@@ -23,6 +23,7 @@ import OnlyEntityProductsCheckBox from "./OnlyEntityProductsCheckBox/OnlyEntityP
 import CategoryProductContainer from "./CategoryProductContainer/CategoryProductContainer";
 import CategoryProductsName from "./CategoryProductsName/CategoryProductsName";
 import CategoryProductSortGroup from "./CategoryProductSortGroup/CategoryProductSortGroup";
+import CategoryProductsHashtags from "./CategoryProductsHashtags/CategoryProductsHashtags";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
@@ -36,5 +37,6 @@ export {
     OnlyEntityProductsCheckBox,
     CategoryProductContainer,
     CategoryProductsName,
-    CategoryProductSortGroup
+    CategoryProductSortGroup,
+    CategoryProductsHashtags
 };
