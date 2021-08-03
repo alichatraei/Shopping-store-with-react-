@@ -41,3 +41,39 @@ body,
 .swiper-pagination {
   height: auto !important;
 }
+
+.accordion-button {
+  background-color: #fff !important;
+  color: #000000 !important;
+  display: flex;
+  align-items: center;
+  border: none !important;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #000000 !important;
+}
+
+.accordion-button::after {
+  float: left !important;
+  margin-right: auto !important;
+  margin-left: 0 !important;
+  background-image: url('./Assets/Icons/Plus.svg') !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: none !important;
+  transition: background-image 10s linear;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url('./Assets/Icons/Minus.svg') !important;
+  height: 0.5rem !important;
+}
