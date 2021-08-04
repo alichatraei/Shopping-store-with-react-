@@ -1,0 +1,10 @@
+.breadCrumbContainer {
+    margin: 1.2rem;
+
+}
+
+.breadCrumbContainer h6 {
+    font-size: 12px;
+    user-select: none;
+    cursor: pointer;
+}

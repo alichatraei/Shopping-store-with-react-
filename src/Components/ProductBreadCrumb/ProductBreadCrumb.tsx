@@ -1,15 +1,13 @@
 import React from 'react'
-import { Breadcrumb } from 'react-bootstrap'
+import ProductBreadCrumbStyles from './ProductBreadCrumb.module.css'
 const ProductBreadCrumb = () => {
     return (
-        <div>
-            <Breadcrumb>
-                <Breadcrumb.Item href="/categorydetail">لوازم جانبی موبایل</Breadcrumb.Item>
-                <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
-                    هولدر مویایل و پایه نگهدارنده
-                </Breadcrumb.Item>
-                <Breadcrumb.Item active>پایه نگهدارنده داخلی هوکو</Breadcrumb.Item>
-            </Breadcrumb>
+        <div className={ProductBreadCrumbStyles.breadCrumbContainer}>
+            <h6 className="text-muted">
+                <span> لوازم جانبی موبایل </span> /
+                <span> هولدر موبایل و پایه نگهدارنده </span> /
+                <span> پایه نگهدارنده داخلی هوکو </span>
+            </h6>
         </div>
     )
 }

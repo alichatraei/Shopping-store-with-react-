@@ -25,6 +25,7 @@ import CategoryProductsName from "./CategoryProductsName/CategoryProductsName";
 import CategoryProductSortGroup from "./CategoryProductSortGroup/CategoryProductSortGroup";
 import CategoryProductsHashtags from "./CategoryProductsHashtags/CategoryProductsHashtags";
 import CategoryProducts from "./CategoryProducts/CategoryProducts";
+import ProductBreadCrumb from "./ProductBreadCrumb/ProductBreadCrumb";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
@@ -40,5 +41,6 @@ export {
     CategoryProductsName,
     CategoryProductSortGroup,
     CategoryProductsHashtags,
-    CategoryProducts
+    CategoryProducts,
+    ProductBreadCrumb
 };
