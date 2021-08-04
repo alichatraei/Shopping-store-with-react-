@@ -19,19 +19,19 @@ const ProductSlider = () => {
             }} breakpoints={{
                 "640": {
                     "slidesPerView": 2,
-                    "spaceBetween": 20
+                    "spaceBetween": 10
                 },
                 "768": {
                     "slidesPerView": 2,
-                    "spaceBetween": 40
+                    "spaceBetween": 20
                 },
                 "1024": {
                     "slidesPerView": 4,
-                    "spaceBetween": 80
+                    "spaceBetween": 20
                 },
                 "1440": {
                     "slidesPerView": 1,
-                    "spaceBetween": 500
+                    "spaceBetween": 20
                 }
             }} className={ProductSliderStyles.swiper}>
                 <SwiperSlide className="h-auto mx-5">
