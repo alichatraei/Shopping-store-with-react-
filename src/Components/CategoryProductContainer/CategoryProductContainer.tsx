@@ -2,7 +2,7 @@ import React from 'react'
 import {
     CategoryProductsName, CategoryProductSortGroup,
     CategoryProductsHashtags,
-    CategoryProductsContainer
+    CategoryProducts
 } from '../'
 import CategoryProductContainerStyles from './CategoryProductContainer.module.css'
 const CategoryProductContainer = () => {
@@ -11,7 +11,7 @@ const CategoryProductContainer = () => {
             <CategoryProductsName />
             <CategoryProductSortGroup />
             <CategoryProductsHashtags />
-            <CategoryProductsContainer />
+            <CategoryProducts />
         </section>
     )
 }
