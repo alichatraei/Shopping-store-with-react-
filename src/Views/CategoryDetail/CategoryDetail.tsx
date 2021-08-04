@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import {
     AmazingOffersContainer, CategoryDetailsFilterBox,
-    CategoryProductContainer
+    CategoryProducts
 } from '../../Components'
 import CategoryDetailStyles from './CategoryDetail.module.css'
 const CategoryDetail = () => {
@@ -16,7 +16,7 @@ const CategoryDetail = () => {
                     </Col>
                     <Col xs={12} sm={12} md={9}>
                         <div className="main">
-                            <CategoryProductContainer />
+                            <CategoryProducts />
                         </div>
                     </Col>
                 </Row>
