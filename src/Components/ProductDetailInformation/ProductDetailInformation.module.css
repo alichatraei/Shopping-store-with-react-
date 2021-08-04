@@ -1,0 +1,14 @@
+.miniText {
+    font-size: 12px;
+}
+
+.features img {
+    max-width: 2rem;
+    margin-left: 0.3rem;
+}
+
+.features span {
+    font-size: 13px;
+    color: #7E7E7E;
+
+}
