@@ -7,7 +7,7 @@ import ProductDetailInformationStyles from './ProductDetailInformation.module.cs
 const ProductDetailInformation = () => {
     return (
         <div className="d-flex flex-column justify-content-between
-        align-items-center py-5">
+        align-items-center py-4 h-100">
             <h4 className="lead text-center">پایه نگهدارنده داخل خودرو هوکو مدل BDSM</h4>
             <h6>{"Hoco CA31 Cool run Car Holder"}</h6>
             <hr className="w-100" />
