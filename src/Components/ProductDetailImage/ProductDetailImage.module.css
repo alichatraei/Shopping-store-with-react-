@@ -1,0 +1,7 @@
+.productImage {
+    border-left: 1px solid #E6E6E6;
+}
+
+.productImage img {
+    max-width: 80%;
+}
