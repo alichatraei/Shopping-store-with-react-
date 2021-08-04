@@ -28,6 +28,8 @@ import CategoryProducts from "./CategoryProducts/CategoryProducts";
 import ProductBreadCrumb from "./ProductBreadCrumb/ProductBreadCrumb";
 import ProductDetailImage from "./ProductDetailImage/ProductDetailImage";
 import ProductDetailContainer from "./ProductDetailContainer/ProductDetailContainer";
+import ProductDetailInformation from "./ProductDetailInformation/ProductDetailInformation";
+import ProductDetailAddToBasket from "./ProductDetailAddToBasket/ProductDetailAddToBasket";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
@@ -46,5 +48,7 @@ export {
     CategoryProducts,
     ProductBreadCrumb,
     ProductDetailImage,
-    ProductDetailContainer
+    ProductDetailContainer,
+    ProductDetailInformation,
+    ProductDetailAddToBasket
 };
