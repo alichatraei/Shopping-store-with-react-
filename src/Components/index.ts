@@ -30,6 +30,7 @@ import ProductDetailImage from "./ProductDetailImage/ProductDetailImage";
 import ProductDetailContainer from "./ProductDetailContainer/ProductDetailContainer";
 import ProductDetailInformation from "./ProductDetailInformation/ProductDetailInformation";
 import ProductDetailAddToBasket from "./ProductDetailAddToBasket/ProductDetailAddToBasket";
+import ProductDetailTabs from "./ProductDetailTabs/ProductDetailTabs";
 export {
     SearchMenuBox, DropDownMenu, SearchInput, HeaderIconsBox,
     OffCanvas, BannersContainer, BannerItem, PopularCategoryList, CardContainer,
@@ -50,5 +51,6 @@ export {
     ProductDetailImage,
     ProductDetailContainer,
     ProductDetailInformation,
-    ProductDetailAddToBasket
+    ProductDetailAddToBasket,
+    ProductDetailTabs
 };
