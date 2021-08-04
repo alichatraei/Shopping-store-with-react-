@@ -2,7 +2,8 @@ import React from 'react'
 import {
     ProductBreadCrumb, ProductDetailContainer
     , CardContainer,
-    ProductSlider
+    ProductSlider,
+    ProductDetailTabs
 } from '../../Components'
 import { Container } from 'react-bootstrap'
 import ProductDetailStyles from './ProductDetail.module.css'
@@ -15,6 +16,7 @@ const ProductDetail = () => {
                 <CardContainer title="محصولات مشابه" secondText="مشاهده کامل">
                     <ProductSlider />
                 </CardContainer>
+                <ProductDetailTabs />
             </Container>
         </main >
     )
